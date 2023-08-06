@@ -7,13 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A051A4B29612BA900FF694D /* character.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A051A4A29612BA900FF694D /* character.png */; };
+		2A051A4D29612FA600FF694D /* Achievement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A051A4C29612FA600FF694D /* Achievement.swift */; };
+		2A051A4F296130B600FF694D /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A051A4E296130B600FF694D /* Item.swift */; };
+		2A094CCF2A0BA6D800E052F6 /* MembershipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A094CCE2A0BA6D800E052F6 /* MembershipsView.swift */; };
+		2A0ACA2D2959426F003576C5 /* InventoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0ACA2C2959426F003576C5 /* InventoryView.swift */; };
+		2A210FE72A2DE7BB00D2DF7B /* MissionTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A210FE62A2DE7BB00D2DF7B /* MissionTree.swift */; };
+		2A210FE92A2DEEA700D2DF7B /* Dependant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A210FE82A2DEEA700D2DF7B /* Dependant.swift */; };
+		2A2EB9C92A21E29B00AC9D65 /* CheckPointView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2EB9C82A21E29B00AC9D65 /* CheckPointView.swift */; };
+		2A2EB9CB2A21E62F00AC9D65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2EB9CA2A21E62F00AC9D65 /* AppDelegate.swift */; };
+		2A2EB9CD2A21E6B800AC9D65 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2EB9CC2A21E6B800AC9D65 /* CoreDataStack.swift */; };
 		2A3B315229562903003E3CB9 /* LifeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3B315129562903003E3CB9 /* LifeApp.swift */; };
-		2A3B315429562903003E3CB9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3B315329562903003E3CB9 /* ContentView.swift */; };
+		2A3B315429562903003E3CB9 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3B315329562903003E3CB9 /* PlayerView.swift */; };
 		2A3B315629562904003E3CB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A3B315529562904003E3CB9 /* Assets.xcassets */; };
 		2A3B315929562904003E3CB9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A3B315829562904003E3CB9 /* Preview Assets.xcassets */; };
 		2A3B316329562904003E3CB9 /* LifeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3B316229562904003E3CB9 /* LifeTests.swift */; };
 		2A3B316D29562904003E3CB9 /* LifeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3B316C29562904003E3CB9 /* LifeUITests.swift */; };
 		2A3B316F29562904003E3CB9 /* LifeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3B316E29562904003E3CB9 /* LifeUITestsLaunchTests.swift */; };
+		2A3CA3412A0A3C69009DCAE5 /* ListDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3CA33D2A0A3C69009DCAE5 /* ListDetailViewController.swift */; };
+		2A3CA3422A0A3C69009DCAE5 /* IconPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3CA33E2A0A3C69009DCAE5 /* IconPickerViewController.swift */; };
+		2A3CA3432A0A3C69009DCAE5 /* ItemDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3CA33F2A0A3C69009DCAE5 /* ItemDetailViewController.swift */; };
+		2A3CA3442A0A3C69009DCAE5 /* ChecklistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3CA3402A0A3C69009DCAE5 /* ChecklistViewController.swift */; };
+		2A3CA3492A0A3C7C009DCAE5 /* Checklist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3CA3462A0A3C7C009DCAE5 /* Checklist.swift */; };
+		2A3CA34A2A0A3C7C009DCAE5 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3CA3472A0A3C7C009DCAE5 /* DataModel.swift */; };
+		2A3CA34B2A0A3C7C009DCAE5 /* ChecklistItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3CA3482A0A3C7C009DCAE5 /* ChecklistItem.swift */; };
+		2A3D3C222A0F4C4300E0637D /* CheckListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3D3C1D2A0F4C4300E0637D /* CheckListView.swift */; };
+		2A3D3C232A0F4C4300E0637D /* CheckListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3D3C1F2A0F4C4300E0637D /* CheckListItem.swift */; };
+		2A3D3C242A0F4C4300E0637D /* CheckListData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3D3C202A0F4C4300E0637D /* CheckListData.swift */; };
+		2A3D3C252A0F4C4300E0637D /* CheckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3D3C212A0F4C4300E0637D /* CheckView.swift */; };
+		2A4157962A0B60A3007B516C /* person.obj in Resources */ = {isa = PBXBuildFile; fileRef = 2A4157952A0B60A3007B516C /* person.obj */; };
+		2A4157982A0B6A98007B516C /* CharacterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4157972A0B6A98007B516C /* CharacterViewController.swift */; };
+		2A41579A2A0B6AF1007B516C /* CharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4157992A0B6AF1007B516C /* CharacterView.swift */; };
+		2A428ABD2964B40C00E0D1B3 /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A428ABC2964B40C00E0D1B3 /* ItemView.swift */; };
+		2A530475295FD55E00613B21 /* JamesBond.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A530474295FD55E00613B21 /* JamesBond.png */; };
+		2A6F3BD42A2AC60800783656 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6F3BD32A2AC60800783656 /* DataController.swift */; };
+		2A6F3BDA2A2AC8CC00783656 /* Life.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2A6F3BD82A2AC8CC00783656 /* Life.xcdatamodeld */; };
+		2A942F8E2958D287007257F3 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A942F8D2958D287007257F3 /* MainView.swift */; };
+		2A942F902958D3A4007257F3 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A942F8F2958D3A4007257F3 /* StatsView.swift */; };
+		2A942F922958D8C6007257F3 /* AchievementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A942F912958D8C6007257F3 /* AchievementsView.swift */; };
+		2A9A218429F9095100A566FE /* HealthStat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9A218329F9095100A566FE /* HealthStat.swift */; };
+		2AA50D662A2329C400E9208C /* DevilView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA50D652A2329C400E9208C /* DevilView.swift */; };
+		2AC3555E29F8E67600E7C292 /* HealthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC3555D29F8E67600E7C292 /* HealthView.swift */; };
+		2AE67DA62959486700375B6B /* MissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE67DA52959486700375B6B /* MissionView.swift */; };
+		2AE67DA82959EC2500375B6B /* StatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE67DA72959EC2500375B6B /* StatView.swift */; };
+		2AE67DAA2959EDCC00375B6B /* Stat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE67DA92959EDCC00375B6B /* Stat.swift */; };
+		2AE67DAC295A48F800375B6B /* player-avatar.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2AE67DAB295A48F700375B6B /* player-avatar.jpeg */; };
+		2AEC4FAB2A10B7E0002BB61A /* MissionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEC4FAA2A10B7E0002BB61A /* MissionsView.swift */; };
+		2AEC4FAD2A10B926002BB61A /* CheckListView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEC4FAC2A10B926002BB61A /* CheckListView2.swift */; };
+		2AFA87352A0B83EA00C2DA52 /* WellnessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFA87342A0B83EA00C2DA52 /* WellnessView.swift */; };
+		2AFA87372A0B8A7D00C2DA52 /* FinanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFA87362A0B8A7D00C2DA52 /* FinanceView.swift */; };
+		2AFFB0EC298E2B18001C0029 /* DescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFFB0EB298E2B18001C0029 /* DescriptionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +77,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A051A4A29612BA900FF694D /* character.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = character.png; sourceTree = "<group>"; };
+		2A051A4C29612FA600FF694D /* Achievement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Achievement.swift; sourceTree = "<group>"; };
+		2A051A4E296130B600FF694D /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		2A094CCE2A0BA6D800E052F6 /* MembershipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MembershipsView.swift; sourceTree = "<group>"; };
+		2A0ACA2C2959426F003576C5 /* InventoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryView.swift; sourceTree = "<group>"; };
+		2A210FE62A2DE7BB00D2DF7B /* MissionTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionTree.swift; sourceTree = "<group>"; };
+		2A210FE82A2DEEA700D2DF7B /* Dependant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dependant.swift; sourceTree = "<group>"; };
+		2A2EB9C82A21E29B00AC9D65 /* CheckPointView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckPointView.swift; sourceTree = "<group>"; };
+		2A2EB9CA2A21E62F00AC9D65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2A2EB9CC2A21E6B800AC9D65 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		2A3B314E29562903003E3CB9 /* Life.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Life.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A3B315129562903003E3CB9 /* LifeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeApp.swift; sourceTree = "<group>"; };
-		2A3B315329562903003E3CB9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2A3B315329562903003E3CB9 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
 		2A3B315529562904003E3CB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A3B315829562904003E3CB9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2A3B315E29562904003E3CB9 /* LifeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LifeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +97,39 @@
 		2A3B316829562904003E3CB9 /* LifeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LifeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A3B316C29562904003E3CB9 /* LifeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeUITests.swift; sourceTree = "<group>"; };
 		2A3B316E29562904003E3CB9 /* LifeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2A3CA33D2A0A3C69009DCAE5 /* ListDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListDetailViewController.swift; sourceTree = "<group>"; };
+		2A3CA33E2A0A3C69009DCAE5 /* IconPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconPickerViewController.swift; sourceTree = "<group>"; };
+		2A3CA33F2A0A3C69009DCAE5 /* ItemDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemDetailViewController.swift; sourceTree = "<group>"; };
+		2A3CA3402A0A3C69009DCAE5 /* ChecklistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChecklistViewController.swift; sourceTree = "<group>"; };
+		2A3CA3462A0A3C7C009DCAE5 /* Checklist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Checklist.swift; sourceTree = "<group>"; };
+		2A3CA3472A0A3C7C009DCAE5 /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		2A3CA3482A0A3C7C009DCAE5 /* ChecklistItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChecklistItem.swift; sourceTree = "<group>"; };
+		2A3D3C1D2A0F4C4300E0637D /* CheckListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckListView.swift; sourceTree = "<group>"; };
+		2A3D3C1F2A0F4C4300E0637D /* CheckListItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckListItem.swift; sourceTree = "<group>"; };
+		2A3D3C202A0F4C4300E0637D /* CheckListData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckListData.swift; sourceTree = "<group>"; };
+		2A3D3C212A0F4C4300E0637D /* CheckView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckView.swift; sourceTree = "<group>"; };
+		2A4157952A0B60A3007B516C /* person.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = person.obj; sourceTree = "<group>"; };
+		2A4157972A0B6A98007B516C /* CharacterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterViewController.swift; sourceTree = "<group>"; };
+		2A4157992A0B6AF1007B516C /* CharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterView.swift; sourceTree = "<group>"; };
+		2A428ABC2964B40C00E0D1B3 /* ItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemView.swift; sourceTree = "<group>"; };
+		2A530474295FD55E00613B21 /* JamesBond.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JamesBond.png; sourceTree = "<group>"; };
+		2A6F3BD32A2AC60800783656 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		2A6F3BD92A2AC8CC00783656 /* Life.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Life.xcdatamodel; sourceTree = "<group>"; };
+		2A942F8D2958D287007257F3 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		2A942F8F2958D3A4007257F3 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		2A942F912958D8C6007257F3 /* AchievementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsView.swift; sourceTree = "<group>"; };
+		2A9A218329F9095100A566FE /* HealthStat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthStat.swift; sourceTree = "<group>"; };
+		2AA50D652A2329C400E9208C /* DevilView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevilView.swift; sourceTree = "<group>"; };
+		2AC3555D29F8E67600E7C292 /* HealthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthView.swift; sourceTree = "<group>"; };
+		2AE67DA52959486700375B6B /* MissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
+		2AE67DA72959EC2500375B6B /* StatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatView.swift; sourceTree = "<group>"; };
+		2AE67DA92959EDCC00375B6B /* Stat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stat.swift; sourceTree = "<group>"; };
+		2AE67DAB295A48F700375B6B /* player-avatar.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "player-avatar.jpeg"; sourceTree = "<group>"; };
+		2AEC4FAA2A10B7E0002BB61A /* MissionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionsView.swift; sourceTree = "<group>"; };
+		2AEC4FAC2A10B926002BB61A /* CheckListView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckListView2.swift; sourceTree = "<group>"; };
+		2AFA87342A0B83EA00C2DA52 /* WellnessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WellnessView.swift; sourceTree = "<group>"; };
+		2AFA87362A0B8A7D00C2DA52 /* FinanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceView.swift; sourceTree = "<group>"; };
+		2AFFB0EB298E2B18001C0029 /* DescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +157,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A2EB9DB2A21ED3800AC9D65 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				2A2EB9CC2A21E6B800AC9D65 /* CoreDataStack.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
 		2A3B314529562903003E3CB9 = {
 			isa = PBXGroup;
 			children = (
@@ -94,10 +188,47 @@
 		2A3B315029562903003E3CB9 /* Life */ = {
 			isa = PBXGroup;
 			children = (
+				2A6F3BD82A2AC8CC00783656 /* Life.xcdatamodeld */,
+				2A4157952A0B60A3007B516C /* person.obj */,
 				2A3B315129562903003E3CB9 /* LifeApp.swift */,
-				2A3B315329562903003E3CB9 /* ContentView.swift */,
-				2A3B315529562904003E3CB9 /* Assets.xcassets */,
+				2A942F8D2958D287007257F3 /* MainView.swift */,
+				2A2EB9CA2A21E62F00AC9D65 /* AppDelegate.swift */,
+				2A2EB9DB2A21ED3800AC9D65 /* CoreData */,
+				2A3D3C1E2A0F4C4300E0637D /* Model */,
+				2A3CA3452A0A3C7C009DCAE5 /* Data Models */,
 				2A3B315729562904003E3CB9 /* Preview Content */,
+				2A6F3BD32A2AC60800783656 /* DataController.swift */,
+				2A3CA3402A0A3C69009DCAE5 /* ChecklistViewController.swift */,
+				2A3CA33E2A0A3C69009DCAE5 /* IconPickerViewController.swift */,
+				2A3CA33F2A0A3C69009DCAE5 /* ItemDetailViewController.swift */,
+				2A3CA33D2A0A3C69009DCAE5 /* ListDetailViewController.swift */,
+				2A051A4C29612FA600FF694D /* Achievement.swift */,
+				2A3B315329562903003E3CB9 /* PlayerView.swift */,
+				2A942F912958D8C6007257F3 /* AchievementsView.swift */,
+				2A3B315529562904003E3CB9 /* Assets.xcassets */,
+				2A942F8F2958D3A4007257F3 /* StatsView.swift */,
+				2AE67DA72959EC2500375B6B /* StatView.swift */,
+				2AE67DA92959EDCC00375B6B /* Stat.swift */,
+				2A0ACA2C2959426F003576C5 /* InventoryView.swift */,
+				2AE67DA52959486700375B6B /* MissionView.swift */,
+				2A051A4E296130B600FF694D /* Item.swift */,
+				2A428ABC2964B40C00E0D1B3 /* ItemView.swift */,
+				2AFFB0EB298E2B18001C0029 /* DescriptionView.swift */,
+				2AC3555D29F8E67600E7C292 /* HealthView.swift */,
+				2A9A218329F9095100A566FE /* HealthStat.swift */,
+				2A4157972A0B6A98007B516C /* CharacterViewController.swift */,
+				2A4157992A0B6AF1007B516C /* CharacterView.swift */,
+				2AFA87342A0B83EA00C2DA52 /* WellnessView.swift */,
+				2AFA87362A0B8A7D00C2DA52 /* FinanceView.swift */,
+				2A094CCE2A0BA6D800E052F6 /* MembershipsView.swift */,
+				2A3D3C1D2A0F4C4300E0637D /* CheckListView.swift */,
+				2A3D3C212A0F4C4300E0637D /* CheckView.swift */,
+				2AEC4FAA2A10B7E0002BB61A /* MissionsView.swift */,
+				2AEC4FAC2A10B926002BB61A /* CheckListView2.swift */,
+				2A2EB9C82A21E29B00AC9D65 /* CheckPointView.swift */,
+				2AA50D652A2329C400E9208C /* DevilView.swift */,
+				2A210FE62A2DE7BB00D2DF7B /* MissionTree.swift */,
+				2A210FE82A2DEEA700D2DF7B /* Dependant.swift */,
 			);
 			path = Life;
 			sourceTree = "<group>";
@@ -105,6 +236,9 @@
 		2A3B315729562904003E3CB9 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				2A051A4A29612BA900FF694D /* character.png */,
+				2AE67DAB295A48F700375B6B /* player-avatar.jpeg */,
+				2A530474295FD55E00613B21 /* JamesBond.png */,
 				2A3B315829562904003E3CB9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -125,6 +259,25 @@
 				2A3B316E29562904003E3CB9 /* LifeUITestsLaunchTests.swift */,
 			);
 			path = LifeUITests;
+			sourceTree = "<group>";
+		};
+		2A3CA3452A0A3C7C009DCAE5 /* Data Models */ = {
+			isa = PBXGroup;
+			children = (
+				2A3CA3462A0A3C7C009DCAE5 /* Checklist.swift */,
+				2A3CA3472A0A3C7C009DCAE5 /* DataModel.swift */,
+				2A3CA3482A0A3C7C009DCAE5 /* ChecklistItem.swift */,
+			);
+			path = "Data Models";
+			sourceTree = "<group>";
+		};
+		2A3D3C1E2A0F4C4300E0637D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2A3D3C1F2A0F4C4300E0637D /* CheckListItem.swift */,
+				2A3D3C202A0F4C4300E0637D /* CheckListData.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +386,10 @@
 			files = (
 				2A3B315929562904003E3CB9 /* Preview Assets.xcassets in Resources */,
 				2A3B315629562904003E3CB9 /* Assets.xcassets in Resources */,
+				2A051A4B29612BA900FF694D /* character.png in Resources */,
+				2AE67DAC295A48F800375B6B /* player-avatar.jpeg in Resources */,
+				2A4157962A0B60A3007B516C /* person.obj in Resources */,
+				2A530475295FD55E00613B21 /* JamesBond.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +414,47 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A3B315429562903003E3CB9 /* ContentView.swift in Sources */,
+				2A3CA3492A0A3C7C009DCAE5 /* Checklist.swift in Sources */,
+				2AA50D662A2329C400E9208C /* DevilView.swift in Sources */,
+				2AE67DAA2959EDCC00375B6B /* Stat.swift in Sources */,
+				2A3D3C252A0F4C4300E0637D /* CheckView.swift in Sources */,
+				2AE67DA82959EC2500375B6B /* StatView.swift in Sources */,
+				2A3D3C222A0F4C4300E0637D /* CheckListView.swift in Sources */,
+				2AC3555E29F8E67600E7C292 /* HealthView.swift in Sources */,
+				2AFFB0EC298E2B18001C0029 /* DescriptionView.swift in Sources */,
+				2A3CA34B2A0A3C7C009DCAE5 /* ChecklistItem.swift in Sources */,
+				2A3D3C232A0F4C4300E0637D /* CheckListItem.swift in Sources */,
+				2A41579A2A0B6AF1007B516C /* CharacterView.swift in Sources */,
+				2AE67DA62959486700375B6B /* MissionView.swift in Sources */,
+				2A942F902958D3A4007257F3 /* StatsView.swift in Sources */,
+				2A2EB9CB2A21E62F00AC9D65 /* AppDelegate.swift in Sources */,
+				2A3B315429562903003E3CB9 /* PlayerView.swift in Sources */,
+				2A3CA3412A0A3C69009DCAE5 /* ListDetailViewController.swift in Sources */,
+				2A094CCF2A0BA6D800E052F6 /* MembershipsView.swift in Sources */,
+				2A2EB9CD2A21E6B800AC9D65 /* CoreDataStack.swift in Sources */,
+				2A4157982A0B6A98007B516C /* CharacterViewController.swift in Sources */,
+				2A942F922958D8C6007257F3 /* AchievementsView.swift in Sources */,
+				2A9A218429F9095100A566FE /* HealthStat.swift in Sources */,
+				2AEC4FAD2A10B926002BB61A /* CheckListView2.swift in Sources */,
+				2A3CA3422A0A3C69009DCAE5 /* IconPickerViewController.swift in Sources */,
+				2A210FE92A2DEEA700D2DF7B /* Dependant.swift in Sources */,
+				2A051A4F296130B600FF694D /* Item.swift in Sources */,
+				2A428ABD2964B40C00E0D1B3 /* ItemView.swift in Sources */,
+				2A3CA34A2A0A3C7C009DCAE5 /* DataModel.swift in Sources */,
+				2A3CA3442A0A3C69009DCAE5 /* ChecklistViewController.swift in Sources */,
+				2A0ACA2D2959426F003576C5 /* InventoryView.swift in Sources */,
+				2A3CA3432A0A3C69009DCAE5 /* ItemDetailViewController.swift in Sources */,
+				2A6F3BDA2A2AC8CC00783656 /* Life.xcdatamodeld in Sources */,
+				2A210FE72A2DE7BB00D2DF7B /* MissionTree.swift in Sources */,
+				2A942F8E2958D287007257F3 /* MainView.swift in Sources */,
 				2A3B315229562903003E3CB9 /* LifeApp.swift in Sources */,
+				2A051A4D29612FA600FF694D /* Achievement.swift in Sources */,
+				2AFA87352A0B83EA00C2DA52 /* WellnessView.swift in Sources */,
+				2AEC4FAB2A10B7E0002BB61A /* MissionsView.swift in Sources */,
+				2A3D3C242A0F4C4300E0637D /* CheckListData.swift in Sources */,
+				2A2EB9C92A21E29B00AC9D65 /* CheckPointView.swift in Sources */,
+				2A6F3BD42A2AC60800783656 /* DataController.swift in Sources */,
+				2AFA87372A0B8A7D00C2DA52 /* FinanceView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +613,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Life/Preview Content\"";
+				DEVELOPMENT_TEAM = NV5PR33GEL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -445,6 +642,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Life/Preview Content\"";
+				DEVELOPMENT_TEAM = NV5PR33GEL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -577,6 +775,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2A6F3BD82A2AC8CC00783656 /* Life.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2A6F3BD92A2AC8CC00783656 /* Life.xcdatamodel */,
+			);
+			currentVersion = 2A6F3BD92A2AC8CC00783656 /* Life.xcdatamodel */;
+			path = Life.xcdatamodeld;
+			sourceTree = SOURCE_ROOT;
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 2A3B314629562903003E3CB9 /* Project object */;
 }
